@@ -24,7 +24,7 @@ pipeline {
             }
         }
 
-        stage('Code Checkout') {
+        stage('Code-Checkout') {
             steps {
                 checkout([
                     $class: 'GitSCM', 
